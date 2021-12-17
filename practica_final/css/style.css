@@ -1,7 +1,55 @@
+::selection {
+    background: red;
+    color: white;
+}
+
+::-moz-selection {
+    background: red;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    text-decoration: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: black;
+    opacity: 25%;
+}
+
 .carrusel {
-    height: 500px;
+    height: 400px;
 }
 
 .carta {
     width: 18rem;
+    text-align: justify ;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.ms-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.municion {
+    width: 30px;
+    height: 30px;
+}
+
+.arma {
+    width: 84px;
+    height: 85px;
+    align-self: center;
+}
+
+span {
+    color: #ff4e1d;
 }
