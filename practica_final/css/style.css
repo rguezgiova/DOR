@@ -1,9 +1,8 @@
-@import url('http://fonts.cdnfonts.com/css/kenyan-coffee-2');
-@import url('https://db.onlinewebfonts.com/c/30dd2c1811d76b0331c1a16733367fe9?family=Miami');
+@import url('http://fonts.cdnfonts.com/css/bignoodletitling');
 
 body {
     background-color: antiquewhite;
-    font-family: 'Miami', sans-serif;
+    font-family: 'BigNoodleTitling', sans-serif;
 }
 
 ::selection {
@@ -36,9 +35,9 @@ a:hover {
     margin-right: 1em;
 }
 
-.card-text {
+.card-title {
+    font-weight: bold;
     font-size: x-large;
-    font-family: 'Kenyan Coffee', sans-serif;
 }
 
 .carta {
