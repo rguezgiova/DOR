@@ -1,3 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/kenyan-coffee-2');
+@import url('https://db.onlinewebfonts.com/c/30dd2c1811d76b0331c1a16733367fe9?family=Miami');
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Miami', sans-serif;
+}
+
 ::selection {
     background: red;
     color: white;
@@ -24,6 +32,15 @@ a:hover {
     height: 400px;
 }
 
+.card {
+    margin-right: 1em;
+}
+
+.card-text {
+    font-size: x-large;
+    font-family: 'Kenyan Coffee', sans-serif;
+}
+
 .carta {
     width: 18rem;
     text-align: justify ;
@@ -45,9 +62,7 @@ a:hover {
 }
 
 .arma {
-    width: 84px;
-    height: 85px;
-    align-self: center;
+    height: 120px;
 }
 
 span {
