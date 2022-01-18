@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.cubo1 {
+    background-color: aqua;
+}
+
+.cubo2 {
+    background-color: blanchedalmond;
+}
+
+.cubo3 {
+    background-color: blueviolet;
+}
+
+.cubo4 {
+    background-color: tomato;
+}
+
+.cubo5 {
+    background-color: yellowgreen;
+}
+
+.cubo6 {
+    background-color: yellow;
+}
+
+.cubo7 {
+    background-color: peru;
+}
+
+.cubo8 {
+    background-color: fuchsia;
+}
+
+.cubo9 {
+    background-color: chocolate;
+}
+
+@media all and (max-width: 576px) {
+    .container {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}

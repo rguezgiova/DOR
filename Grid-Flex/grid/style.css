@@ -1,0 +1,41 @@
+.padre {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "uno dos"
+                         "tres cuatro"
+                         "cinco seis";
+    grid-auto-rows: row;
+    text-align: center;
+}
+
+.uno {
+    background: darkred;
+    grid-area: uno;
+}
+
+.dos {
+    background: black;
+    grid-area: dos;
+    color: white;
+}
+
+.tres {
+    background: orange;
+    grid-area: tres;
+}
+
+.cuatro {
+    background: green;
+    grid-area: cuatro;
+}
+
+.cinco {
+    background: lightblue;
+    grid-area: cinco;
+}
+
+.seis {
+    background: pink;
+    grid-area: seis;
+}

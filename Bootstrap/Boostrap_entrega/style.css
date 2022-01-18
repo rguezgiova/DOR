@@ -1,0 +1,90 @@
+.header {
+    height: 100px;
+}
+
+.body {
+    height: 250px;
+}
+
+.footer {
+    height: 50px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.naranja {
+    background-color: orange;
+}
+.verde {
+    background-color: greenyellow;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+#body1, #body2, #body3 {
+    font-size: larger;
+}
+
+@media all and (max-width: 576px) {
+    #header {
+        background-color: orange;
+        text-align: center;
+    }
+    #body1 {
+        text-align: left;
+    }
+    #body2 {
+        text-align: center;
+        background-color: cyan;
+    }
+    #body3 {
+        text-align: right;
+    }
+    #footer1, #footer2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #header {
+        background-color: cyan;
+        text-align: left;
+    }
+    #body1 {
+        text-align: left;
+    }
+    #body2 {
+        text-align: right;
+    }
+    #body3 {
+        background-color: greenyellow;
+        text-align: center;
+    }
+    #footer1, #footer2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    #header {
+        background-color: greenyellow;
+        text-align: left;
+    }
+    #body1, #body2, #body3 {
+        text-align: center;
+    }
+    #footer1 {
+        text-align: right;
+    }
+    #footer2 {
+        text-align: left;
+    }
+}
