@@ -1,0 +1,18 @@
+$section-background: blue;
+$article-background: lightblue;
+$hover-background: yellow;
+
+section {
+  background-color: $section-background;
+  padding: 10px;
+
+  article {
+    background-color: $article-background;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  article:hover {
+    background-color: $hover-background;
+  }
+}
