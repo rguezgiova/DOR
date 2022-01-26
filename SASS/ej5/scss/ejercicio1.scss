@@ -1,0 +1,15 @@
+@use 'sass:math';
+
+@mixin reduction($class, $color, $fontSize, $fontReduction) {
+  $dark: 5%;
+  @for $i from 1 through 6 {
+    .#{$class} h#{$i} {
+      color: darken($color, $dark);
+      font-size: $fontSize;
+    }
+    $fontSize: $fontReduction * math.div($fontSize, 100);
+    $color: darken($color, $dark);
+  }
+}
+
+@include reduction("miclase", #cc3366, 5rem, 80);

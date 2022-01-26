@@ -1,0 +1,9 @@
+$tamanio: 1rem ;
+$incremento: 0.2rem;
+
+@for $i from 0 through 5 {
+  .texto#{$i} {
+    font-size: $tamanio;
+  }
+  $tamanio: $tamanio + $incremento;
+}

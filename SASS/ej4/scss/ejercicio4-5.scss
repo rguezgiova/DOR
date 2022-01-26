@@ -1,0 +1,22 @@
+@each $theme, $bgColor, $color, $border, $shadow, $center in
+        (normal, white, black, 1px, suave, false),
+        (aviso, orange, black, 2px, fuerte, false),
+        (correcto, lightgreen, #660066, 3px, normal, true) {
+  .#{$theme} {
+    padding: 10px;
+    margin: 10px;
+    background-color: #{$bgColor};
+    color: #{$color};
+    border: #{$border} solid #{$color};
+    @if $shadow == suave {
+      box-shadow: 1px 1px 3px #{$color};
+    } @else if $shadow == normal {
+      box-shadow: 3px 3px 6px #{$color};
+    } @else if $shadow == fuerte {
+      box-shadow: 6px 6px 12px #{$color};
+    }
+    @if $center == true {
+      text-align: center;
+    }
+  }
+}

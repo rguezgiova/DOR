@@ -1,0 +1,42 @@
+$background-red: red;
+$background-blue: blue;
+$background-yellow: yellow;
+
+.flexible-100-blue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &> div {
+    width: 100px;
+    background-color: $background-blue;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+.flexible-150-yellow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &> div {
+    width: 150px;
+    background-color: $background-yellow;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+.flexible-200-red {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &> div {
+    width: 200px;
+    background-color: $background-red;
+    margin: 5px;
+    text-align: center;
+  }
+}

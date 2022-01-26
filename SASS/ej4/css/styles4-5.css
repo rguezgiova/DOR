@@ -1,0 +1,29 @@
+.normal {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
+}
+
+.aviso {
+  padding: 10px;
+  margin: 10px;
+  background-color: orange;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 6px 6px 12px black;
+}
+
+.correcto {
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgreen;
+  color: #660066;
+  border: 3px solid #660066;
+  box-shadow: 3px 3px 6px #660066;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles4-5.css.map */
