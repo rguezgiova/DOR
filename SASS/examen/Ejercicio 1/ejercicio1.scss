@@ -1,0 +1,12 @@
+@mixin createCard($name, $fontSize, $color, $backgroundColor) {
+  .card-#{$name} {
+    font-size: $fontSize;
+    color: $color;
+    background-color: $backgroundColor;
+  }
+}
+
+@include createCard(fancy2, 10pt, blue, white);
+@include createCard(intrepida, 11pt, red, lightgray);
+@include createCard(clasica, 12pt, black, white);
+@include createCard(inversa, 9pt, orange, silver);

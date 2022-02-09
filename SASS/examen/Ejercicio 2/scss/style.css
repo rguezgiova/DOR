@@ -1,0 +1,31 @@
+.miclase h1 {
+  color: #becb0c;
+  font-size: 5rem;
+}
+
+.miclase h2 {
+  color: #e3f218;
+  font-size: 3rem;
+}
+
+.miclase h3 {
+  color: #e9f449;
+  font-size: 1.8rem;
+}
+
+.miclase h4 {
+  color: #eff779;
+  font-size: 1.08rem;
+}
+
+.miclase h5 {
+  color: #f4faa9;
+  font-size: 0.648rem;
+}
+
+.miclase h6 {
+  color: #fafdd9;
+  font-size: 0.3888rem;
+}
+
+/*# sourceMappingURL=style.css.map */
