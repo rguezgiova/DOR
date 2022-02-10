@@ -9,7 +9,7 @@
       font-size: $size;
     }
     $color: desaturate($color, $desaturate);
-    $size: math.div($size, $reduction);
+    $size: $reduction * math.div($size, 100);
   }
 }
 
