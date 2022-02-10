@@ -6,7 +6,7 @@
     .#{$name} h#{$i} {
       color: lighten($color, $light);
       font-size: $size;
-      $size: math.div($size, math.div($reduction, 42));
+      $size: $reduction * math.div($size, 100);
     }
     $color: lighten($color, $light);
   }
