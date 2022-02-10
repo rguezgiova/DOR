@@ -2,7 +2,6 @@
 
 @mixin desaturarClass($name, $color, $size, $reduction) {
   $desaturate: 10%;
-  $reduction: math.div($reduction, 100);
   @for $i from 1 through  6 {
     .#{$name} h#{$i} {
       color: desaturate($color, $desaturate);
