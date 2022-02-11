@@ -2147,6 +2147,7 @@ progress {
 }
 .form-label {
   margin-bottom: 0.5rem;
+  color: pink;
 }
 
 .col-form-label {
@@ -6142,13 +6143,14 @@ textarea.form-control-lg {
 }
 .offcanvas {
   position: fixed;
-  bottom: 0;
+  bottom: 20%;
   z-index: 1045;
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  color: pink;
   visibility: hidden;
-  background-color: #fff;
+  background-color: black;
   background-clip: padding-box;
   outline: 0;
   transition: transform 0.3s ease-in-out;

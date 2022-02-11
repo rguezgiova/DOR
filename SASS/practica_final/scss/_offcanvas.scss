@@ -1,13 +1,13 @@
 .offcanvas {
   position: fixed;
-  bottom: 0;
+  bottom: 20%;
   z-index: $zindex-offcanvas;
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  color: $offcanvas-color;
+  color: rgb(255,192,203);
   visibility: hidden;
-  background-color: $offcanvas-bg-color;
+  background-color: rgb(0,0,0);
   background-clip: padding-box;
   outline: 0;
   @include box-shadow($offcanvas-box-shadow);
