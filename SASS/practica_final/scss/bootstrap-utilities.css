@@ -4,6 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 .clearfix::after {
   display: block;
   clear: both;
@@ -11,10 +12,10 @@
 }
 
 .link-primary {
-  color: #0d6efd;
+  color: pink;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #0a58ca;
+  color: #ffcdd5;
 }
 
 .link-secondary {
@@ -46,10 +47,10 @@
 }
 
 .link-danger {
-  color: #dc3545;
+  color: #54ffee;
 }
 .link-danger:hover, .link-danger:focus {
-  color: #b02a37;
+  color: #76fff1;
 }
 
 .link-light {
@@ -60,10 +61,10 @@
 }
 
 .link-dark {
-  color: #212529;
+  color: lightpink;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21;
+  color: #ffc5cd;
 }
 
 .ratio {
@@ -457,7 +458,7 @@
 }
 
 .border-primary {
-  border-color: #0d6efd !important;
+  border-color: pink !important;
 }
 
 .border-secondary {
@@ -477,7 +478,7 @@
 }
 
 .border-danger {
-  border-color: #dc3545 !important;
+  border-color: #54ffee !important;
 }
 
 .border-light {
@@ -485,7 +486,7 @@
 }
 
 .border-dark {
-  border-color: #212529 !important;
+  border-color: lightpink !important;
 }
 
 .border-white {
